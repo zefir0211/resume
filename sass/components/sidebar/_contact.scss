@@ -18,13 +18,13 @@
         font-weight: normal;
         font-size: 17px;
         line-height: 1.5;
-        color: var(--text-color-white-ransparent);
+        color: var(--section-color-white);
         transition-duration: 350ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transform: scale(0.85);
         &:hover,
         &:focus{
-            color: var(--text-color-white);
+            color: var(--text-color-white-ransparent);
         }
     }
     &__p{
