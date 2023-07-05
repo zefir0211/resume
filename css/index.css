@@ -42,7 +42,7 @@ button {
   --text-color-ginger: #FB6D3A;
   --text-color-white-ransparent: #ffffffab;
   --text-color-white: #ffffff;
-  --section-color:#1e2939;
+  --section-color:#2a78ab;
   --section-color-white: #ffffff;
 }
 
@@ -89,6 +89,14 @@ button {
   width: calc 830px;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  background-color: #e0effa;
+  padding-left: 10px;
+  height: 40px;
+}
+
 /*about-me*/
 .about {
   margin-bottom: 20px;
@@ -107,6 +115,7 @@ button {
   font-size: 47px;
   line-height: 1.15;
   color: var(--text-color-black);
+  margin-bottom: 10px;
 }
 .about__discription {
   font-style: normal;
@@ -193,7 +202,7 @@ button {
   margin-bottom: 10px;
 }
 .work-expiriens-company {
-  margin: 0 0 15px 0;
+  margin: 15px 0 0 0;
 }
 .work-expiriens__position {
   font-style: normal;
@@ -228,15 +237,30 @@ button {
 }
 
 .details__more {
+  margin-top: 15px;
   cursor: pointer;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-gray);
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.details__more:hover {
+  color: var(--section-color);
 }
 
 /*education*/
+.education {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  color: var(--text-color-black);
+  margin-bottom: 10px;
+}
 .education-title {
   font-style: normal;
   font-weight: bold;
@@ -249,8 +273,8 @@ button {
   display: flex;
   flex-direction: column;
 }
-.education__item:not(:last-child) {
-  margin-bottom: 10px;
+.education__item {
+  margin-top: 10px;
 }
 .education__university {
   font-style: normal;
@@ -280,6 +304,13 @@ button {
 }
 .education__link {
   color: var(--text-color-ginger);
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.education__link:hover {
+  color: var(--section-color);
+  cursor: pointer;
 }
 
 .go {
@@ -323,14 +354,13 @@ button {
 }
 
 .photo {
-  width: 370px;
-  background-color: #667899;
+  width: 360px;
+  background-color: white;
   transition-property: all;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.photo:hover {
-  transform: scale(0.95);
+  border-radius: 50%;
+  margin: 5px 5px 0 5px;
 }
 
 /* contact */
@@ -403,7 +433,7 @@ button {
 .language {
   padding-right: 40px;
   padding-left: 40px;
-  margin: 50px 0 0 0;
+  margin: 50px 0 15px 0;
 }
 .language-list {
   padding: 0 0 0 17px;

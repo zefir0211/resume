@@ -10,7 +10,7 @@
         margin-bottom: 10px;
     }
     &-company {
-        margin: 0 0 15px 0;
+        margin: 15px 0 0 0;
     }
     &__position {
         font-style: normal;
@@ -45,11 +45,19 @@
     }
 }
 .details__more{
-    // margin-bottom: 15px;
+    margin-top: 15px;
     cursor: pointer;
     font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
-        line-height: 1.15;
-        color: var(--text-color-gray);
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.15;
+    color: var(--text-color-gray);
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            color: var(--section-color);
+        }
 }
