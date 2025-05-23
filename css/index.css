@@ -207,7 +207,7 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 30px;
   margin: 0 0 10px 0;
 }
 .work-expiriens__position--color {
@@ -366,7 +366,7 @@ button {
 .contact {
   padding-right: 40px;
   padding-left: 40px;
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
 }
 .contact__tipe {
   font-style: normal;
@@ -401,13 +401,13 @@ button {
 .tech-skil {
   padding-right: 40px;
   padding-left: 40px;
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .soft-skil {
   padding-right: 40px;
   padding-left: 40px;
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .soft-skil-list,
@@ -432,7 +432,7 @@ button {
 .language {
   padding-right: 40px;
   padding-left: 40px;
-  margin: 50px 0 15px 0;
+  margin: 30px 0 15px 0;
 }
 .language-list {
   padding: 0 0 0 17px;
