@@ -2,22 +2,65 @@
 .work-expiriens{
     margin-bottom: 20px;
     &-title {
+        // font-style: normal;
+        // font-weight: bold;
+        // font-size: 24px;
+        // line-height: 27px;
+        // color: var(--text-color-black);
+        // margin-bottom: 10px;
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 17px;
         line-height: 27px;
         color: var(--text-color-black);
         margin-bottom: 10px;
+
+        @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+            font-size: 24px;
+        }
     }
     &-company {
         margin: 15px 0 0 0;
+        padding: 0 10px;
+
+        @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+            padding: 0;
+        }
     }
     &__position {
+        // font-style: normal;
+        // font-weight: bold;
+        // font-size: 18px;
+        // line-height: 30px;
+        // margin: 0 0 10px 0;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 15px;
         margin: 0 0 10px 0;
+
+        @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+            font-size: 18px;
+            line-height: 30px;
+        }
     }
     &__position--color {
         color: var(--text-color-ginger);
@@ -25,10 +68,20 @@
     &__period {
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 10px;
         line-height: 15px;
         color: var(--text-color-gray);
         margin: 0 0 10px 0;
+
+        @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+           font-size: 16px;
+        }
     }
     &__period--color { 
         color: var(--text-color-black);
@@ -39,30 +92,63 @@
     &__item{
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 13px;
         line-height: 1.15;
         color: var(--text-color-gray);
+
+        @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+           font-size: 17px;
+        }
     }
 }
-.details__more{
-    margin-top: 15px;
+.details {
+    padding: 0 10px;
+
+    @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+            padding: 0;
+        }
+    &__more {
+        margin-top: 15px;
     cursor: pointer;
     font-style: normal;
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 13px;
     line-height: 1.15;
     color: var(--text-color-gray);
 
     animation: pulse 2s infinite; // Анімація пульсації
-    transition-property: all;
-    transition-duration: 500ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // transition-property: all;
+    // transition-duration: 500ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1), transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(1);
+
+        @media screen and (min-width: 320px){
+        
+        }
+        @media screen and (min-width: 768px){
+
+        }
+        @media screen and (min-width: 1200px){
+            font-size: 17px;
+        }
 
         &:hover {
             transform: scale(1.01);
             color: var(--section-color);
             animation-play-state: paused;
         }
+    }
 }
