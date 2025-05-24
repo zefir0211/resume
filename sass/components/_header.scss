@@ -34,6 +34,19 @@
     top: 6px;
     left: 20%;
 
+        @media screen and (min-width: 480px){
+
+        }
+        @media screen and (min-width: 768px){
+            position: absolute;
+            top: 20px;
+            left: auto;
+            right: 20px;
+        }
+        @media screen and (min-width: 1200px){
+
+        }
+
     &__p {
         margin-right: 20px;
     }
@@ -54,15 +67,5 @@
         &:hover{
             transform: scale(1.2);
         }
-    }
-    
-    @media screen and (min-width: 480px){
-
-    }
-    @media screen and (min-width: 768px){
-
-    }
-    @media screen and (min-width: 1200px){
-
     }
 }

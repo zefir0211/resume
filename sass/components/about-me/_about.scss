@@ -27,7 +27,6 @@
         // color: var(--text-color-black);
         // margin-bottom: 10px;
         position: absolute;
-    
         top: 420px;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -53,6 +52,13 @@
         }
         @media screen and (min-width: 370px){
             top: 470px;
+        }
+        @media screen and (min-width: 768px){
+            position: static;
+            transform: translate(0%, -0%);
+            font-style: normal;
+            font-size: 47px;
+            color: var(--text-color-black);
         }
         @media screen and (min-width: 1200px){
             font-style: normal;
